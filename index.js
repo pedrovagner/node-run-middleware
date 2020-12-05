@@ -106,5 +106,13 @@ function createRes(callback) {
     //     _res.send(data)
     // }
   };
+
+  res.removeHeader = (x) => {
+    return res;
+  }
+
+  res.getHeader = (x) => {
+    return res;
+  }
   return res;
 }
